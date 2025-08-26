@@ -67,9 +67,13 @@ python manage.py runserver
 Method	Endpoint	Description
 
 GET	/todos/	📖 Retrieve all todos
+
 POST	/todos/	🆕 Create a new todo
+
 GET	/todos/{id}/	📖 Retrieve a specific todo
+
 PUT	/todos/{id}/	✏️ Update a todo
+
 DELETE	/todos/{id}/	❌ Delete a todo
 
 
@@ -82,19 +86,7 @@ gunicorn todoproject.wsgi
 
 ⚠️ Note: Replace todoproject with your actual Django project folder name containing settings.py and wsgi.py.
 
-**🤝 Contributing
-**
-We welcome contributions! Please follow these steps:
 
-🍴 Fork the repository
-
-🌿 Create a feature branch: git checkout -b feature-name
-
-📝 Make your changes and commit: git commit -m "Add feature"
-
-🚀 Push to the branch: git push origin feature-name
-
-🔗 Open a Pull Request
 
 **📄 License**
 
