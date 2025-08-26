@@ -18,7 +18,8 @@ It allows users to create, read, update, and delete todos efficiently, providing
 
 ⚡ Fast, lightweight, and ready for production deployment
 
-🛠️ Technology Stack
+
+**🛠️ Technology Stack:**
 
 🐍 Python 3.x
 
@@ -60,7 +61,7 @@ Run the development server
 
 python manage.py runserver
 
-**📄 API Endpoints**:
+**📄 API Endpoints:**
 
 Method	Endpoint	Description
 
@@ -75,7 +76,7 @@ PUT	/todos/{id}/	✏️ Update a todo
 DELETE	/todos/{id}/	❌ Delete a todo
 
 
-**🚀 Deployment**
+**🚀 Deployment:**
 
 Use Gunicorn for production deployment:
 
