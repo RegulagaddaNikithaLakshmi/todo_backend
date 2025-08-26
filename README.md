@@ -33,14 +33,12 @@ It allows users to create, read, update, and delete todos efficiently, providing
 **🚀 Installation & Setup:**
 
 1. Clone the repository
-
-git clone https://github.com/RegulagaddaNikithaLakshmi/todo_backend.git
-
-cd todo_backend
+  git clone https://github.com/RegulagaddaNikithaLakshmi/todo_backend.git
+  cd todo_backend
 
 2. Create a virtual environment
 
-python -m venv venv
+   python -m venv venv
 
 # Windows
 
